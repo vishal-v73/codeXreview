@@ -1,0 +1,177 @@
+/* General Styles */
+body {
+  background-color: #181818;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Main Container */
+main {
+  display: flex;
+  gap: 20px;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* Left Section */
+.left {
+  flex: 1.2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Code Editor */
+.code {
+  width: 100%;
+  background-color: #1e1e1e;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.review-btn {
+  background-color: #4c6ef5;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* Right Section */
+.right {
+  flex: 1.2;
+  background-color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%; /* Ensures full width */
+  min-height: 250px;
+}
+
+/* Review Header */
+.right h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 10px;
+  text-align: center;
+  width: 100%;
+}
+
+/* Review Box */
+.review-box {
+  background-color: #222;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  overflow-y: auto;
+  width: 100%; /* Ensures it takes the full right section width */
+  height: 100%; /* Makes sure it fills available space */
+  max-height: 300px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+/* Logo Header */
+.logo-header {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 10px 0;
+  background-color: #222;
+  border-radius: 10px;
+}
+
+.logo-text {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+}
+
+.highlight {
+  color: #f39c12; /* Gives CodeX a cool highlighted effect */
+}
+/* General Styles */
+body {
+  background-color: #181818;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Main Container */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  background-color: #222;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Logo Header */
+.logo-header {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 10px 0;
+  background-color: #333;
+  border-radius: 10px;
+}
+
+.logo-text {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+}
+
+.highlight {
+  color: #f39c12; /* Gives CodeX a cool highlighted effect */
+}
+
+/* Content Layout */
+.content {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+}
+
+/* Left Section */
+.left {
+  flex: 1;
+  background-color: #111;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.code {
+  width: 100%;
+  background-color: #1e1e1e;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.review-btn {
+  background-color: #4c6ef5;
+  color: white
+}
